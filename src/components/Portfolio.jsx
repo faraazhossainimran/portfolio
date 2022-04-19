@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
       <>
       <Box>
-      <Text mt={10}>Portfolio</Text>
+      <Text mt={10}>PORTFOLIO</Text>
           <Grid  templateColumns='repeat(2, 1fr)' gap={6} py={'40px'}>
               <GridItem>
                   <Image  _hover={{ bg: "#8C52FF", color: "#fff" }} src={gymsite} alt={'portfolio Image'}/>

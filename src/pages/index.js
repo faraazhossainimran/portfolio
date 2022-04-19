@@ -8,15 +8,18 @@ import Footer from '../../src/components/Footer';
 import Navbar from '../../src/components/Navbar';
 import Service from '../../src/components/Service';
 import Portfolio from '../components/Portfolio';
+import SocialMedia from '../components/SocialMedia';
 const IndexPage = () => {
   return (
     // bg="#0a192f"
     // bg={'tomato'}
   <Box>
     <Navbar/>
+    <Banner/>
+    {/* <MyDocument/> */}
     <Container maxW="5xl">
     
-    <Banner/>
+    
      <About/>
      <Service/>
      <Portfolio/>
@@ -24,6 +27,7 @@ const IndexPage = () => {
      <ExtraPortfolio/>
      <Experience/>
     </Container>
+    <SocialMedia/>
     <Footer/>
   </Box>
   )

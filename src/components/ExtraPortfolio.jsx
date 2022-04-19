@@ -4,9 +4,9 @@ import { FaGithub, FaLink } from "react-icons/fa";
 const ExtraPortfolio = () => {
   return (
       <>
-       <Text my={10}>Other Projects</Text>
+       <Text my={10}>OTHER PROJECTS</Text>
        <Grid templateColumns="repeat(3, 1fr)" gap={3}>
-        <GridItem bg={'gray.100'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -30,7 +30,7 @@ const ExtraPortfolio = () => {
             </HStack>
           </Box>
         </GridItem>
-        <GridItem bg={'gray.100'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -54,7 +54,7 @@ const ExtraPortfolio = () => {
             </HStack>
           </Box>
         </GridItem>
-        <GridItem bg={'gray.100'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -78,7 +78,7 @@ const ExtraPortfolio = () => {
             </HStack>
           </Box>
         </GridItem>
-        <GridItem bg={'gray.100'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -102,7 +102,7 @@ const ExtraPortfolio = () => {
             </HStack>
           </Box>
         </GridItem>
-        <GridItem bg={'gray.100'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -126,7 +126,7 @@ const ExtraPortfolio = () => {
             </HStack>
           </Box>
         </GridItem>
-        <GridItem bg={'gray.100'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>

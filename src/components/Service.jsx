@@ -4,9 +4,9 @@ import React from 'react';
 const Service = () => {
   return (
     <div>
-      <Text my={10}>My service</Text>
-      <Grid templateColumns="repeat(3, 1fr)" gap={10}>
-        <GridItem bg={'gray.100'} p={10} borderBottom={"2px"} borderColor={'red.300'}>
+      <Text my={10}>MY SERVICE</Text>
+      <Grid templateColumns="repeat(3, 1fr)" gap={10} >
+        <GridItem boxShadow={'xl'} p={10} borderBottom={"2px"} borderColor={'red.300'}>
           <Box>
             <Heading fontSize="20" mb={3} textAlign="center">Website Audit</Heading>
           </Box>
@@ -17,7 +17,7 @@ const Service = () => {
             </Text>
           </Box>
         </GridItem>
-        <GridItem bg={'gray.100'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem boxShadow={'xl'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
           <Box>
             <Heading fontSize="20" mb={3} textAlign="center">Frontend Development</Heading>
           </Box>
@@ -28,7 +28,7 @@ const Service = () => {
             </Text>
           </Box>
         </GridItem>
-        <GridItem bg={'gray.100'} p={10} borderBottom={"2px"} borderColor={'red.300'}>
+        <GridItem boxShadow={'xl'} p={10} borderBottom={"2px"} borderColor={'red.300'}>
           <Box>
             <Heading fontSize="20" mb={3} textAlign="center">WordPress</Heading>
           </Box>

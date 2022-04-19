@@ -6,7 +6,7 @@ import {
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 
-const Links = ['About me', 'My Service', 'Portfolio', 'Experience', 'Education'];
+const Links = ['About me', 'Portfolio', 'Experience'];
 
 // const NavLink = ({ children }: { children: ReactNode }) => (
 //   <Link
@@ -26,7 +26,7 @@ const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box width="100%" borderBottom="1px solid" borderColor={'#ccc'} boxShadow="sm">
+    <Box position="static" width="100%" borderBottom="1px solid" borderColor={'#ccc'} boxShadow="sm">
       <Container px={4} maxW="5xl" alignItems={'center'} >
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
@@ -36,9 +36,11 @@ const Navbar = () => {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
           />
-          <HStack spacing={8} alignItems={'center'}>
+          <HStack spacing={10}>
             <Box>IM</Box>
-            <HStack
+          </HStack>
+          <HStack
+              alignItems={'center'}
               as={'nav'}
               spacing={4}
               display={{ base: 'none', md: 'flex' }}>
@@ -46,7 +48,6 @@ const Navbar = () => {
                 <Link key={link}><Text fontSize={'lg'}>{link}</Text></Link>
               ))}
             </HStack>
-          </HStack>
           <Flex alignItems={'center'}>
             <Menu>
               <MenuButton
