@@ -6,9 +6,9 @@ import React from 'react';
 import profile from '../images/profile.jpg';
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <Box>
-        <Text my={16}>WHO AM I</Text>
+        <Text mt={24} mb={12}>WHO AM I</Text>
       </Box>
       <Grid templateColumns="repeat(5, 1fr)" gap={10} >
         <GridItem colSpan={1}>
@@ -29,11 +29,11 @@ const About = () => {
               years. Programming is my passion and I love to create things with
               my ideas.
               My other side is an entrepreneur and business enthusiast
-              who enjoys finding technological solutions for people's problems.
+              who enjoys finding technological solutions for people's problems. You can hire me I'm ready to do the task. I love to do the work which have a lot of variations.
             </Text>
             <HStack>
-            <Button colorScheme={'white'} color={'black'} border={'2px'} borderColor={'red'} bordered={true}>More about me</Button>
-            <Button colorScheme={'white'} color={'black'} border={'2px'} borderColor={'red'} bordered={true}>Download CV</Button>
+            <Button variant='outline' >More about me</Button>
+            <Button variant='outline' >Download CV</Button>
             </HStack>
           </Box>
         </GridItem>

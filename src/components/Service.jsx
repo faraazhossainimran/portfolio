@@ -4,9 +4,9 @@ import React from 'react';
 const Service = () => {
   return (
     <div>
-      <Text my={10}>MY SERVICE</Text>
+      <Text mt={24} mb={12}>MY SERVICE</Text>
       <Grid templateColumns="repeat(3, 1fr)" gap={10} >
-        <GridItem boxShadow={'xl'} p={10} borderBottom={"2px"} borderColor={'red.300'}>
+        <GridItem boxShadow={'xl'} p={10} borderBottom={"3px"} borderBottomColor={'red.300'} borderTop={"red.300"} borderTopColor={"red.300"} borderRight={"1px"} borderRightColor={"red.300"} borderLeft = {"1px"} borderLeftColor={"red.300"}>
           <Box>
             <Heading fontSize="20" mb={3} textAlign="center">Website Audit</Heading>
           </Box>

@@ -1,7 +1,7 @@
 import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 import {
   Box, Button, Container, Flex, HStack, IconButton, Link, Menu,
-  MenuButton, MenuDivider, MenuItem, MenuList, Stack, Text, useDisclosure
+  MenuButton, Stack, Text, useDisclosure
 } from '@chakra-ui/react';
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
@@ -24,7 +24,6 @@ const Links = ['About me', 'Portfolio', 'Experience'];
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
   return (
     <Box position="static" width="100%" borderBottom="1px solid" borderColor={'#ccc'} boxShadow="sm">
       <Container px={4} maxW="5xl" alignItems={'center'} >
@@ -37,7 +36,7 @@ const Navbar = () => {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={10}>
-            <Box>IM</Box>
+            <Box>IMS</Box>
           </HStack>
           <HStack
               alignItems={'center'}
@@ -61,12 +60,12 @@ const Navbar = () => {
                   color='black'
                 />
               </MenuButton>
-              <MenuList>
+              {/* <MenuList>
                 <MenuItem>Link 1</MenuItem>
                 <MenuItem>Link 2</MenuItem>
                 <MenuDivider />
                 <MenuItem>Link 3</MenuItem>
-              </MenuList>
+              </MenuList> */}
             </Menu>
           </Flex>
         </Flex>

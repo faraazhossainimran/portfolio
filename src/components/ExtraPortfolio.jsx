@@ -1,12 +1,16 @@
-import { Box, Grid, GridItem, Heading, HStack, Text } from "@chakra-ui/react";
+import { Box, Button, Grid, GridItem, Heading, HStack, Text } from "@chakra-ui/react";
 import React from 'react';
 import { FaGithub, FaLink } from "react-icons/fa";
 const ExtraPortfolio = () => {
   return (
       <>
-       <Text my={10}>OTHER PROJECTS</Text>
-       <Grid templateColumns="repeat(3, 1fr)" gap={3}>
-        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+       <Text mt={24} mb={12}>OTHER PROJECTS</Text>
+       <Grid templateColumns="repeat(3, 1fr)" gap={8}>
+        <GridItem shadow="md"
+         borderWidth="1px"
+         borderColor={'gray.200'}
+         borderRadius={'xl'}
+         p={10}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -17,20 +21,24 @@ const ExtraPortfolio = () => {
             Ecomerce Website in awesome functionality.
           </Heading>
           <Box >
-            <Text my={'15px'}>
+            <Text color={'gray.500'} my={'15px'}>
               Removed unused CSS from any site Improve CSS code Find Technical
               Errors Fix W3 validation Errors and warnings
             </Text>
           </Box>
           <Box>
             <HStack gap={2}>
-              <Text>ReactJs</Text>
-              <Text>MongoDB</Text>
-              <Text>Material Ui</Text>
+            <Button colorScheme='teal' size='xs'>React Js</Button>
+            <Button colorScheme='teal' size='xs'>MongoDb</Button>
+            <Button colorScheme='teal' size='xs'>Material UI</Button>
             </HStack>
           </Box>
         </GridItem>
-        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem shadow="base"
+         borderWidth="1px"
+         borderColor={'gray.200'}
+         borderRadius={'xl'}
+         p={10}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -41,20 +49,24 @@ const ExtraPortfolio = () => {
             Ecomerce Website in awesome functionality.
           </Heading>
           <Box >
-            <Text my={'15px'}>
+            <Text color={'gray.500'} my={'15px'}>
               Removed unused CSS from any site Improve CSS code Find Technical
               Errors Fix W3 validation Errors and warnings
             </Text>
           </Box>
           <Box>
             <HStack gap={2}>
-              <Text>ReactJs</Text>
-              <Text>MongoDB</Text>
-              <Text>Material Ui</Text>
+            <Button colorScheme='teal' size='xs'>React Js</Button>
+            <Button colorScheme='teal' size='xs'>MongoDb</Button>
+            <Button colorScheme='teal' size='xs'>Material UI</Button>
             </HStack>
           </Box>
         </GridItem>
-        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem shadow="base"
+         borderWidth="1px"
+         borderColor={'gray.200'}
+         borderRadius={'xl'}
+         p={10}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -65,20 +77,24 @@ const ExtraPortfolio = () => {
             Ecomerce Website in awesome functionality.
           </Heading>
           <Box >
-            <Text my={'15px'}>
+            <Text color={'gray.500'} my={'15px'}>
               Removed unused CSS from any site Improve CSS code Find Technical
               Errors Fix W3 validation Errors and warnings
             </Text>
           </Box>
           <Box>
             <HStack gap={2}>
-              <Text>ReactJs</Text>
-              <Text>MongoDB</Text>
-              <Text>Material Ui</Text>
+            <Button colorScheme='teal' size='xs'>React Js</Button>
+            <Button colorScheme='teal' size='xs'>MongoDb</Button>
+            <Button colorScheme='teal' size='xs'>Material UI</Button>
             </HStack>
           </Box>
         </GridItem>
-        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem shadow="base"
+         borderWidth="1px"
+         borderColor={'gray.200'}
+         borderRadius={'xl'}
+         p={10}>
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -89,20 +105,25 @@ const ExtraPortfolio = () => {
             Ecomerce Website in awesome functionality.
           </Heading>
           <Box >
-            <Text my={'15px'}>
+            <Text color={'gray.500'} my={'15px'}>
               Removed unused CSS from any site Improve CSS code Find Technical
               Errors Fix W3 validation Errors and warnings
             </Text>
           </Box>
           <Box>
             <HStack gap={2}>
-              <Text>ReactJs</Text>
-              <Text>MongoDB</Text>
-              <Text>Material Ui</Text>
+            <Button colorScheme='teal' size='xs'>React Js</Button>
+            <Button colorScheme='teal' size='xs'>MongoDb</Button>
+            <Button colorScheme='teal' size='xs'>Material UI</Button>
             </HStack>
           </Box>
         </GridItem>
-        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem shadow="base"
+         borderWidth="1px"
+         borderColor={'gray.200'}
+         borderRadius={'xl'}
+         p={10}
+         >
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -113,20 +134,27 @@ const ExtraPortfolio = () => {
             Ecomerce Website in awesome functionality.
           </Heading>
           <Box >
-            <Text my={'15px'}>
+            <Text color={'gray.500'} my={'15px'}>
               Removed unused CSS from any site Improve CSS code Find Technical
               Errors Fix W3 validation Errors and warnings
             </Text>
           </Box>
           <Box>
             <HStack gap={2}>
-              <Text>ReactJs</Text>
-              <Text>MongoDB</Text>
-              <Text>Material Ui</Text>
+            <Button colorScheme='teal' size='xs'>React Js</Button>
+            <Button colorScheme='teal' size='xs'>MongoDb</Button>
+            <Button colorScheme='teal' size='xs'>Material UI</Button>
             </HStack>
           </Box>
         </GridItem>
-        <GridItem boxShadow={'md'} p={10} borderBottom={"2px"} borderColor={'purple.300'}>
+        <GridItem shadow="base"
+         borderWidth="1px"
+         borderColor={'gray.200'}
+         borderRadius={'xl'}
+         p={10} 
+        //  borderBottom={"2px"}
+        //  borderColor={'purple.300'}
+         >
           <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
@@ -137,16 +165,16 @@ const ExtraPortfolio = () => {
             Ecomerce Website in awesome functionality.
           </Heading>
           <Box >
-            <Text my={'15px'}>
+            <Text color={'gray.500'} my={'15px'}>
               Removed unused CSS from any site Improve CSS code Find Technical
               Errors Fix W3 validation Errors and warnings
             </Text>
           </Box>
           <Box>
             <HStack gap={2}>
-              <Text>ReactJs</Text>
-              <Text>MongoDB</Text>
-              <Text>Material Ui</Text>
+            <Button colorScheme='teal' size='xs'>React Js</Button>
+            <Button colorScheme='teal' size='xs'>MongoDb</Button>
+            <Button colorScheme='teal' size='xs'>Material UI</Button>
             </HStack>
           </Box>
         </GridItem>
