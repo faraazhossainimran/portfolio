@@ -3,7 +3,7 @@ import React from 'react';
 import { FaGithub, FaLink } from "react-icons/fa";
 const ExtraPortfolio = () => {
   return (
-      <>
+      <Box>
        <Text mt={24} mb={12}>OTHER PROJECTS</Text>
        <Grid templateColumns="repeat(3, 1fr)" gap={8}>
         <GridItem shadow="md"
@@ -155,14 +155,16 @@ const ExtraPortfolio = () => {
         //  borderBottom={"2px"}
         //  borderColor={'purple.300'}
          >
-          <Box mb={'20px'}>
+        
+         <Box mb={'20px'}>
             <HStack justifyContent={'space-between'}>
             <FaGithub size="35px"/>
-            <FaLink size="25px"/>
+            <a href="https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-link/" target="_blank"> <FaLink size="25px"/> </a>
+           
             </HStack>
           </Box>
           <Heading fontSize="md">
-            Ecomerce Website in awesome functionality.
+          <a href="https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-link/" target="_blank"> Ecomerce Website in awesome functionality. </a>
           </Heading>
           <Box >
             <Text color={'gray.500'} my={'15px'}>
@@ -179,7 +181,7 @@ const ExtraPortfolio = () => {
           </Box>
         </GridItem>
       </Grid>
-      </>
+      </Box>
   );
 };
 

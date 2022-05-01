@@ -6,7 +6,7 @@ import {
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 
-const Links = ['About me', 'Portfolio', 'Experience'];
+const Links = ['About me', 'Portfolio', 'Article'];
 
 // const NavLink = ({ children }: { children: ReactNode }) => (
 //   <Link
@@ -25,7 +25,7 @@ const Links = ['About me', 'Portfolio', 'Experience'];
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <Box position="static" width="100%" borderBottom="1px solid" borderColor={'#ccc'} boxShadow="sm">
+    <Box zIndex={1000} position="fixed" bg={'rgba(245,250,253,0.9)!important'} width="100%" borderBottom="1px solid" borderColor={'#ccc'} boxShadow="sm">
       <Container px={4} maxW="5xl" alignItems={'center'} >
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton

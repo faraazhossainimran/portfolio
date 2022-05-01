@@ -7,19 +7,18 @@ import Footer from '../../src/components/Footer';
 import Navbar from '../../src/components/Navbar';
 import Banner2 from '../components/Banner2';
 import Portfolio from '../components/Portfolio';
+import Service from '../components/Service';
 const IndexPage = () => {
   return (
     // bg="#0a192f"
     // bg={'tomato'}
   <Box>
     <Navbar/>
-    
     <Banner2/>
-    <About2/>
     {/* <MyDocument/> */}
     <Container maxW="5xl">
-    
-    
+    <About2/>
+    <Service/>
      {/* <About/> */}
      {/* <Service/> */}
      <Portfolio/>
