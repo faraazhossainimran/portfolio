@@ -6,7 +6,7 @@ import {
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 
-const Links = ['About me', 'Portfolio', 'Article'];
+const Links = ['About me', 'Portfolio', 'Blog'];
 
 // const NavLink = ({ children }: { children: ReactNode }) => (
 //   <Link
